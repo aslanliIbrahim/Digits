@@ -1,7 +1,9 @@
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="flex items-center justify-center">
-      Tailwind is Working! 🎉
+    <div className="white container mx-auto px-4">
+      <Home />
     </div>
   );
 }
