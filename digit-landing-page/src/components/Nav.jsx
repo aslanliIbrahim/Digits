@@ -11,10 +11,10 @@ export default function Nav() {
           <img src={logo} alt="" />
         </div>
 
-        <ul className="gap-5 hidden md:flex">
+        <ul className="gap-5 hidden lg:flex">
           <li>Homepages</li>
           <li>Products</li>
-          <li className="flex items-center">
+          <li className=" hover:cursor-pointer flex items-center">
             Company <ChevronDown size={17} />
           </li>
           <li>Pricing</li>
@@ -24,7 +24,7 @@ export default function Nav() {
 
       <div className="hidden md:flex gap-5 items-center">
         <p>+994 (051) 334 2288</p>
-        <Button color="text-white" title="Contact Us" />
+        <Button color="text-white" bg='bg-button-blue' title="Contact Us" />
       </div>
 
       <div className=" block md:hidden">
