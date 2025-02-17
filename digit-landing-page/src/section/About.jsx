@@ -37,11 +37,7 @@ export default function About() {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-28">
         <div className="w-[50%] flex items-center justify-center">
-          <img
-            className="object-contain"
-            src={Graphic1}
-            alt="about-img"
-          />
+          <img className="object-contain" src={Graphic1} alt="about-img" />
         </div>
         <div>
           {details.map((detail) => (

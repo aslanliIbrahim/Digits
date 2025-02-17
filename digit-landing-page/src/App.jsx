@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="white container mx-auto px-4">
+    <div className="">
       <Home />
     </div>
   );
